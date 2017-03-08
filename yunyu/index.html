@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>yunyu</title>
+	<meta charset="utf-8">
+	<meta name="author" content="pixelhint.com">
+	<meta name="description" content=""/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+
+	<header class="trasparent_nav">
+		<div class="wrapper">
+			<div class="logo">
+				<a href="#"><img src="img/logo.png" alt="yunyu"></a>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="#">Music Player</a></li>
+					<li><a href="#">Recommendation</a></li>
+					<li><a href="#">Team</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header><!-- End trasparent_nav -->
+
+	<header class="fixed_nav">
+		<div class="wrapper">
+			<div class="logo">
+				<a href="#"><img src="img/logo_small.png" alt="Fertile"></a>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="#">Music Player</a></li>
+					<li><a href="#">Recommendation</a></li>
+					<li><a href="#">Team</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header><!-- End fixed_nav -->
+
+	<section class="billboard">
+		<img src="img/w5.jpg" alt="" title=""/>
+		<img src="img/w2.jpg" alt="" title=""/>
+		<img src="img/w3.jpg" alt="" title=""/>
+
+	</section><!-- End billboard -->
+
+	<section class="cta cta_top">
+		<p>Let's share the fantastic music together!</p>
+			<a href="#">Iuput Music Name:</a>
+			<form action="/music/submitMusic" method="get">
+				<input type="text" name="name" size=68><br>
+				<input type="submit" value="提交歌曲">
+			</form>
+	</section><!-- End cta_top -->
+
+	<section class="services wrapper">
+			<h2>Function Choices</h2>
+			<div class="separator">
+				<img src="img/separator.png" alt=""/>
+			</div>
+			<ul>
+				<li>
+					<img class="s_icons" src="img/function1.png" width="50px" height="50px" alt=""/>
+					<h3>播放 暂停</h3>
+					<form action="/music/pause" method="get">
+						<input type="submit" value="暂停">
+					</form>
+					<form action="/music/stop" method="get">
+						<input type="submit" value="停止">
+					</form>
+				</li>
+
+				<li>
+					<img class="s_icons" src="img/function1.png" width="50px" height="50px" alt=""/>
+					<h3>滚动显示歌词</h3>
+				</li>
+
+				<li>
+					<img class="s_icons" src="img/function1.png" width="50px" height="50px" alt=""/>
+					<h3>上一首 下一首</h3>
+					<form action="/music/previous" method="get">
+						<input type="submit" value="上一首">
+					</form>
+					<form action="/music/next" method="get">
+						<input type="submit" value="下一首">
+					</form>
+				</li>
+			</ul>
+	</section><!-- End services -->
+
+
+	<section class="recent_work">
+		<h3>Recommendation</h3>
+		<div class="work">
+			<a href=""><img src="img/music06.png" alt="" height="300px"></a>
+		</div>
+		<div class="work">
+			<a href=""><img src="img/music02.png" alt="" height="300px"></a>
+		</div>
+		<div class="work">
+			<a href=""><img src="img/music03.png" alt="" height="300px"></a>
+		</div>
+		<div class="work">
+			<a href=""><img src="img/music04.png" alt="" height="300px"></a>
+		</div>
+		<div class="work">
+			<a href=""><img src="img/music05.png" alt="" height="300px"></a>
+		</div>
+	</section><!-- End recent_work -->
+
+
+	<!--
+	<section class="testimonials wrapper">
+		<h3>Testimonials</h3>
+		<ul class="testi_boxs">
+			<li>
+				<img class="avatar" src="img/client1.jpg" alt=""/>
+				<h2>David Doe <span class="client_job">/ Manager</span></h2>
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sint occaecat cupidatat.</p>
+			</li>
+			<li>
+				<img class="avatar" src="img/client2.jpg" alt=""/>
+				<h2>David Doe <span class="client_job">/ UI Designer</span></h2>
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sint occaecat cupidatat.</p>
+			</li>
+			<li>
+				<img class="avatar" src="img/client3.jpg" alt=""/>
+				<h2>David Doe <span class="client_job">/ SEO Expert</span></h2>
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur sint occaecat cupidatat.</p>
+			</li>
+		</ul>
+	</section><!-- End testimonials 
+	-->
+
+	<!--
+	<section class="clients">
+		<div class="wrapper">
+			<ul>
+				<li><a href=""><img src="img/client_logo.png" alt="" title="Client Logo"/></a></li>
+				<li><a href=""><img src="img/client_logo.png" alt="" title="Client Logo"/></a></li>
+				<li><a href=""><img src="img/client_logo.png" alt="" title="Client Logo"/></a></li>
+				<li><a href=""><img src="img/client_logo.png" alt="" title="Client Logo"/></a></li>
+				<li><a href=""><img src="img/client_logo.png" alt="" title="Client Logo"/></a></li>
+				<li><a href=""><img src="img/client_logo.png" alt="" title="Client Logo"/></a></li>
+			</ul>
+		</div>
+	</section><!-- End clients -->
+
+
+	<footer>
+		<div class="wrapper">
+			<!--
+			<section class="cta cta_footer">
+				<p>Have a project in mind?  We would love to hear from you!</p>
+				<a href="#">Get in touch with us</a>
+			</section>
+
+			<div class="footer_widget">
+					<div class="f_cols">
+						<h3>Location</h3>
+						<p>3301 New Mexico Avenue Washington, DC 20016 <span class="phone">(202) 537-0787</span></p> 	
+						<ul class="sm">
+							<li><a class="fb" href="#"></a></li>
+							<li><a class="twitter" href="#"></a></li>
+							<li><a class="dribbble" href="#"></a></li>
+						</ul>
+					</div>	
+
+					<div class="f_cols">
+						<h3>Company</h3>
+						<ul>
+							<li><a href="#">Our Story</a></li>
+							<li><a href="#">Mission</a></li>
+							<li><a href="#">Journal</a></li>
+							<li><a href="#">Careers</a></li>
+						</ul>	
+					</div>	
+
+					<div class="f_cols">
+						<h3>Support</h3>
+						<ul>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Policies</a></li>
+						</ul>	
+					</div>	
+
+					<div class="f_cols">
+						<h3>Fertile</h3>
+						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia est eserunt mollit anim laborum.</p>
+					</div>
+			</div>
+			-->
+			<p class="rights">© yunyu </p>	
+
+		</div>
+	</footer><!-- End Footer -->
+
+	        <script src='../ga.js'></script>
+	</body>
+</html>
